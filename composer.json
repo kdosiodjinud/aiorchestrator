@@ -1,0 +1,22 @@
+{
+    "name": "kdosiodjinud/aiorchestrator",
+    "description": "AiOrchestrator for OpenAI API",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "AiOrchestrator\\": "src/"
+        }
+    },
+    "require": {
+        "openai-php/client": "v0.13.0",
+        "symfony/http-client": "^7.2",
+        "nyholm/psr7": "^1.8",
+        "monolog/monolog": "^3.9",
+        "ext-curl": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
